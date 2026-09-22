@@ -45,7 +45,7 @@ public static class ZenithCompiler
         switch (graphicsApi)
         {
             case GraphicsApi.DirectX12:
-                arguments.AddRange(["dxil", "-profile", "sm_6_6"]);
+                arguments.AddRange(["dxil", "-profile", "sm_6_8"]);
                 break;
 
             case GraphicsApi.Metal:
